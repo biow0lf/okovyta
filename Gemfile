@@ -9,11 +9,12 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 
-group :development, :test do
-end
-
 group :development do
   gem 'listen', '~> 3.0.5'
   # rubocop version locked due config. Update rubocop config on gem update.
   gem 'rubocop', '0.48.0', require: false
+end
+
+group :development, :test do
+  gem 'rspec-rails'
 end
