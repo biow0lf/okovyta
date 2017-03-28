@@ -14,4 +14,6 @@ end
 
 group :development do
   gem 'listen', '~> 3.0.5'
+  # rubocop version locked due config. Update rubocop config on gem update.
+  gem 'rubocop', '0.48.0', require: false
 end
