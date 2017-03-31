@@ -1,7 +1,6 @@
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
-    - 'Capfile'
     - 'db/schema.rb'
     - 'bin/rspec'
     - 'bin/rubocop'
