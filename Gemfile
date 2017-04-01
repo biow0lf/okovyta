@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 
 gem 'draper', '~> 3.0.0.pre1'
+gem 'dotenv-rails'
 
 group :development do
   gem 'listen', '~> 3.0.5'
