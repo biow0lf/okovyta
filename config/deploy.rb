@@ -13,8 +13,7 @@ set :rbenv_ruby, File.read('.ruby-version').strip
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml", "config/secrets.yml"
 
-set :linked_files, fetch(:linked_files, []).push('config/database.yml',
-                                                 'config/newrelic.yml',
+set :linked_files, fetch(:linked_files, []).push('config/newrelic.yml',
                                                  '.env')
 
 

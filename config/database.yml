@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: screenshots_production
-  username: screenshots
+  database: <%= ENV['SCREENSHOTS_DATABASE_NAME'] %>
+  username: <%= ENV['SCREENSHOTS_DATABASE_USER'] %>
   password: <%= ENV['SCREENSHOTS_DATABASE_PASSWORD'] %>
