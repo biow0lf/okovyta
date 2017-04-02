@@ -16,7 +16,6 @@ set :rbenv_ruby, File.read('.ruby-version').strip
 set :linked_files, fetch(:linked_files, []).push('config/newrelic.yml',
                                                  '.env')
 
-
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
 
