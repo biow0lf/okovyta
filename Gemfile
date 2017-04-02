@@ -8,6 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
+gem 'bcrypt'
 
 gem 'draper', '~> 3.0.0.pre1'
 gem 'dotenv-rails'

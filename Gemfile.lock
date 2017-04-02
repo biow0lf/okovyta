@@ -47,6 +47,7 @@ GEM
       sshkit (>= 1.6.1, != 1.7.0)
     arel (7.1.4)
     ast (2.3.0)
+    bcrypt (3.1.11)
     bcrypt_pbkdf (1.0.0)
     builder (3.2.3)
     capistrano (3.8.0)
@@ -219,6 +220,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt
   bcrypt_pbkdf
   capistrano
   capistrano-rails
