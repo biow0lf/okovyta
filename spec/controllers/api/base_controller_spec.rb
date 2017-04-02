@@ -3,7 +3,7 @@ require 'rails_helper'
 describe Api::BaseController do
   it { should be_a(ApplicationController) }
 
-  # it { should use_before_action(:authenticate!) }
+  it { should use_before_action(:authenticate!) }
 
   describe '#current_user' do
     let!(:user) { create(:user) }
