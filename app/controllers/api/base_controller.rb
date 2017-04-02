@@ -2,6 +2,8 @@ module Api
   class BaseController < ApplicationController
     protect_from_forgery with: :exception, unless: -> { request.format.json? }
 
+    # before_action :authenticate!
+
     attr_reader :current_user
 
     helper_method :collection, :resource, :parent, :current_user
