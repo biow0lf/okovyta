@@ -54,6 +54,12 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
+    capistrano-bundler (1.2.0)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-rails (1.2.3)
+      capistrano (~> 3.1)
+      capistrano-bundler (~> 1.1)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.2.x)
@@ -205,6 +211,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt_pbkdf
   capistrano
+  capistrano-rails
   coffee-rails (~> 4.2)
   dotenv-rails
   draper (~> 3.0.0.pre1)
