@@ -22,6 +22,7 @@ group :development do
   gem 'rbnacl-libsodium' # for ssh-ed25519 support
   gem 'capistrano'
   gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
 end
 
 group :development, :test do
