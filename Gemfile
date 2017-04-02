@@ -12,6 +12,7 @@ gem 'bcrypt'
 
 gem 'draper', '~> 3.0.0.pre1'
 gem 'dotenv-rails'
+gem 'swagger-blocks'
 
 group :development do
   gem 'listen', '~> 3.0.5'
