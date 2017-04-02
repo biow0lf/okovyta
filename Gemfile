@@ -40,4 +40,5 @@ group :test do
   gem 'shoulda-matchers'
   gem 'database_rewinder'
   gem 'rails-controller-testing'
+  gem 'rspec-its'
 end

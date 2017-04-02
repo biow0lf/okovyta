@@ -179,6 +179,9 @@ GEM
     rspec-expectations (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
+    rspec-its (1.2.0)
+      rspec-core (>= 3.0.0)
+      rspec-expectations (>= 3.0.0)
     rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
@@ -259,6 +262,7 @@ DEPENDENCIES
   rails-controller-testing
   rbnacl (< 4.0)
   rbnacl-libsodium
+  rspec-its
   rspec-rails
   rubocop (= 0.48.0)
   sass-rails (~> 5.0)
