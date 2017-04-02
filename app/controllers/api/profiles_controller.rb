@@ -1,7 +1,5 @@
 module Api
   class ProfilesController < BaseController
-    before_action :authenticate!
-
     private
 
     def resource
