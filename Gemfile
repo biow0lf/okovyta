@@ -24,6 +24,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
   gem 'capistrano-rbenv-install'
+  gem 'capistrano3-puma'
 end
 
 group :development, :test do
