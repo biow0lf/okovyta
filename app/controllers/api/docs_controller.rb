@@ -42,13 +42,13 @@ module Api
 
     # A list of all classes that have swagger_* declarations.
     SWAGGERED_CLASSES = [
-      # Api::Docs::Models::OutputUser,
-      # Api::Docs::Models::OutputSession,
-      # Api::Docs::Models::UnprocessableEntity,
-      #
-      # Api::Docs::SignUps,
-      # Api::Docs::SignIns,
-      # Api::Docs::SignOuts,
+      Api::Docs::Models::OutputUser,
+      Api::Docs::Models::OutputSession,
+      Api::Docs::Models::UnprocessableEntity,
+
+      Api::Docs::SignUps,
+      Api::Docs::SignIns,
+      Api::Docs::SignOuts,
       # Api::Docs::Profiles,
       # Api::Docs::RequestPasswordResets,
       # Api::Docs::PasswordResets,
