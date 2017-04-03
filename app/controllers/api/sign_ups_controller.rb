@@ -13,7 +13,8 @@ module Api
     end
 
     def resource_params
-      params.permit(:email, :password, :password_confirmation)
+      params.permit(:first_name, :last_name, :email, :password,
+                    :password_confirmation)
     end
   end
 end

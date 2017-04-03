@@ -8,7 +8,9 @@ describe Api::SignUpsController do
   describe '#create.json' do
     context 'user successfully created' do
       before do
-        post :create, params: { email: 'me@example.com',
+        post :create, params: { first_name: 'Igor',
+                                last_name: 'Zubkov',
+                                email: 'me@example.com',
                                 password: 'password',
                                 password_confirmation: 'password',
                                 format: :json }
@@ -21,7 +23,9 @@ describe Api::SignUpsController do
 
     context 'unprocessable entity' do
       before do
-        post :create, params: { email: 'me@example.com',
+        post :create, params: { first_name: 'Igor',
+                                last_name: 'Zubkov',
+                                email: 'me@example.com',
                                 password: 'password',
                                 password_confirmation: 'wrong confirmation',
                                 format: :json }
@@ -60,11 +64,12 @@ describe Api::SignUpsController do
   describe '#resource_params' do
     before do
       #
-      # subject.params.permit(:email, :password, :password_confirmation)
+      # subject.params.permit(:first_name, :last_name, :email, :password,
+      #                       :password_confirmation)
       #
       expect(subject).to receive(:params) do
         double.tap do |a|
-          expect(a).to receive(:permit).with(:email, :password, :password_confirmation)
+          expect(a).to receive(:permit).with(:first_name, :last_name, :email, :password, :password_confirmation)
         end
       end
     end
