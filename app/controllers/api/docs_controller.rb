@@ -10,18 +10,18 @@ module Api
         key :title, 'Screenshots REST API'
         key :description, 'Screenshots REST API'
       end
-      # tag do
-      #   key :name, 'sign up'
-      #   key :description, 'Sign Up operations'
-      # end
-      # tag do
-      #   key :name, 'sign in'
-      #   key :description, 'Sign In operations'
-      # end
-      # tag do
-      #   key :name, 'sign out'
-      #   key :description, 'Sign Out operations'
-      # end
+      tag do
+        key :name, 'sign up'
+        key :description, 'Sign Up operations'
+      end
+      tag do
+        key :name, 'sign in'
+        key :description, 'Sign In operations'
+      end
+      tag do
+        key :name, 'sign out'
+        key :description, 'Sign Out operations'
+      end
       tag do
         key :name, 'profile'
         key :description, 'Profile operations'
