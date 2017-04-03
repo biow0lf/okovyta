@@ -142,6 +142,8 @@ GEM
     parser (2.4.0.0)
       ast (~> 2.2)
     pg (0.20.0)
+    pghero (1.6.4)
+      activerecord
     powerpack (0.1.1)
     puma (3.8.2)
     pundit (1.1.0)
@@ -270,6 +272,7 @@ DEPENDENCIES
   kaminari
   listen (~> 3.0.5)
   pg (~> 0.18)
+  pghero
   puma (~> 3.0)
   pundit
   rack-cors
