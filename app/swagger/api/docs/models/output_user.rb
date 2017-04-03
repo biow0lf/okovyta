@@ -12,6 +12,14 @@ module Api
             key :format, :int64
             key :description, 'User ID'
           end
+          property :first_name do
+            key :type, :string
+            key :description, 'User first name'
+          end
+          property :last_name do
+            key :type, :string
+            key :description, 'User last name'
+          end
           property :email do
             key :type, :string
             key :description, 'User email'
@@ -27,6 +35,8 @@ module Api
             key :description, 'Updated at in ISO8601 format'
           end
           key :example, id: 42,
+                        first_name: 'John',
+                        last_name: 'Snow',
                         email: 'me@example.com',
                         created_at: Time.zone.now.iso8601,
                         updated_at: Time.zone.now.iso8601
