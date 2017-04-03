@@ -26,7 +26,8 @@ module Api
         key :name, 'profile'
         key :description, 'Profile operations'
       end
-      key :host, 'localhost:3000'
+      key :host, 'screenshots.altlinux.org'
+      # key :host, 'localhost:3000'
       key :basePath, '/api'
       key :consumes, ['application/json']
       key :produces, ['application/json']
