@@ -18,7 +18,7 @@ gem 'pundit'
 group :development do
   gem 'listen', '~> 3.0.5'
   # rubocop version locked due config. Update rubocop config on gem update.
-  gem 'rubocop', '0.48.0', require: false
+  gem 'rubocop', '0.48.1', require: false
   # https://github.com/net-ssh/net-ssh/issues/478
   gem 'bcrypt_pbkdf' # for rbnacl-libsodium
   gem 'rbnacl', '< 4.0' # for rbnacl-libsodium
