@@ -17,6 +17,7 @@ gem 'swagger-blocks'
 gem 'pundit'
 gem 'pghero'
 gem 'pg_query'
+gem 'acts-as-taggable-on'
 
 group :development do
   gem 'listen', '~> 3.0.5'
