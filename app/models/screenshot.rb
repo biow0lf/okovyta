@@ -3,5 +3,7 @@ class Screenshot < ApplicationRecord
 
   validates :user, presence: true
 
+  validates :file, presence: true
+
   mount_uploader :file, ScreenshotUploader
 end
