@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  
+  namespace :backoffice do
+    # TODO: test this route
+    mount PgHero::Engine, at: 'pghero'
+  end
+
   namespace :api, defaults: { format: 'json' } do
     resources :docs, only: :index
 
