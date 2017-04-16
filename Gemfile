@@ -18,6 +18,7 @@ gem 'pundit'
 gem 'pghero'
 gem 'pg_query'
 gem 'acts-as-taggable-on'
+gem 'carrierwave'
 
 group :development do
   gem 'listen', '~> 3.0.5'
