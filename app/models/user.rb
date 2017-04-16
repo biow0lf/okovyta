@@ -1,6 +1,8 @@
 class User < ApplicationRecord
   has_many :sessions, dependent: :destroy
 
+  has_many :screenshots, dependent: :destroy
+
   validates :email, presence: true
 
   validates :email, uniqueness: { case_sensitive: false }
