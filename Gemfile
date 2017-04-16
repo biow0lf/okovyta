@@ -16,6 +16,7 @@ gem 'dotenv-rails'
 gem 'swagger-blocks'
 gem 'pundit'
 gem 'pghero'
+gem 'pg_query'
 
 group :development do
   gem 'listen', '~> 3.0.5'
