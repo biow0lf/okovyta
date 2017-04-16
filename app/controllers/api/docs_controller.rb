@@ -26,6 +26,10 @@ module Api
         key :name, 'profile'
         key :description, 'Profile operations'
       end
+      tag do
+        key :name, 'screenshots'
+        key :description, 'Screenshots operations'
+      end
       key :host, 'screenshots.altlinux.org'
       # key :host, 'localhost:3000'
       key :basePath, '/api'
@@ -50,6 +54,7 @@ module Api
       Api::Docs::SignUps,
       Api::Docs::SignIns,
       Api::Docs::SignOuts,
+      Api::Docs::Screenshots,
       # Api::Docs::Profiles,
       # Api::Docs::RequestPasswordResets,
       # Api::Docs::PasswordResets,
