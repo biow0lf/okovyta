@@ -1,4 +1,4 @@
-lock '3.8.0'
+lock '3.8.1'
 
 set :application, 'okovyta'
 set :repo_url, 'https://github.com/biow0lf/okovyta.git'
