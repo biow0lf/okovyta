@@ -277,7 +277,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_rewinder
   dotenv-rails
-  draper (~> 3.0.0.pre1)
+  draper
   factory_girl_rails
   faker
   jquery-rails
