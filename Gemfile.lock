@@ -133,6 +133,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.10.2)
+    mry (0.49.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
@@ -275,6 +276,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   listen (~> 3.0.5)
+  mry
   pg (~> 0.18)
   pg_query
   pghero
