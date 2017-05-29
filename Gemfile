@@ -22,7 +22,7 @@ gem 'carrierwave'
 group :development do
   gem 'listen', '~> 3.0.5'
   # rubocop version locked due config. Update rubocop config on gem update.
-  gem 'rubocop', '0.49.0', require: false
+  gem 'rubocop', '0.49.1', require: false
   gem 'mry'
   # https://github.com/net-ssh/net-ssh/issues/478
   gem 'bcrypt_pbkdf' # for rbnacl-libsodium
