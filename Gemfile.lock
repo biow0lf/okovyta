@@ -149,7 +149,7 @@ GEM
     pghero (1.7.0)
       activerecord
     powerpack (0.1.1)
-    puma (3.9.0)
+    puma (3.9.1)
     pundit (1.1.0)
       activesupport (>= 3.0.0)
     rack (2.0.3)
